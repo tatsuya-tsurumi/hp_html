@@ -1,103 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Porforio</title>
-    <meta name="description" content="TsurumiTatsuyaのポートフォリオサイト" />
-    <meta name="format-detection" content="telephone=no" />
 
-
-    <!-- ogp -->
-    <meta property="og:site_name" content="Portforio" />
-    <meta property="og:url" content="サイトのURL" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Portforio" />
-    <meta
-      property="og:description"
-      content="TsurumiTatsuyaのポートフォリオサイト"
-    />
-    <meta property="og:image" content="URL" />
-    <meta property="og:locale" content="ja_JP" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:description"
-      content="TsurumiTatsuyaのポートフォリオサイト"
-    />
-    <meta name="twitter:image:src" content="URL" />
-
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- css -->
-    <link rel="stylesheet" href="css/reset.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
-    />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- js -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="js/main.js" defer></script>
-  </head>
-  <body class="js_body">
-    <header class="l_header">
-      <div class="l_header-inner">
-        <p class="l_header-logo">
-          <a href="index.html" class="l_header-logo_link">TsurumiTatsuya</a>
-          
-        </p>
-        <nav class="l_header-nav js_nav">
-          <ul class="l_header-nav_list">
-            <li class="l_header-nav_item">
-              <a href="index.html" class="l_header-nav_link ">TOP</a>
-            </li>
-            <li class="l_header-nav_item">
-              <a href="#about" class="l_header-nav_link ">ABOUT</a>
-            </li>
-            <li class="l_header-nav_item">
-              <a href="#service" class="l_header-nav_link ">SERVICE</a>
-            </li>
-            <li class="l_header-nav_item">
-              <a href="#skill" class="l_header-nav_link ">SKILL</a>
-            </li>
-            <li class="l_header-nav_item">
-              <a href="#work" class="l_header-nav_link">WORK</a>
-            </li>
-            <li class="l_header-nav_item">
-              <a href="contact.html" class="l_header-nav_link">お問い合わせ</a>
-            </li>
-          </ul>
-        </nav>
-
-        <button class="m_hamburger js_hamburger">
-          <span class="m_hamburger_bar js_hamburger_bar"></span>
-          <span class="m_hamburger_bar js_hamburger_bar"></span>
-          <span class="m_hamburger_bar js_hamburger_bar"></span>
-        </button>
-      </div>
-      <!-- /.l_header-inner -->
-    </header>
 
     <div class="top_kv">
       <div class="top_kv_contents l_container">
@@ -146,6 +47,7 @@
                   <span class="top_about_txt">東京都(多摩地区)</span>
                 </p>
                 <p class="top_about_introduction">
+                  <span class="top_about_list">趣味:</span>
                   <span class="top_about_txt">お酒・読書・野球</span>
                 </p>
   
@@ -250,7 +152,7 @@
       </section>
 
       <section class="top_skill" id="skill">
-        <div class="l_contents js_skill-trigger">
+        <div class="l_contents js_service-trigger">
           <div class="m_title-lv02_wrapper">
             <h2 class="m_title-lv02"> SKILL </h2>
             <p class="m_title-lv02_en"> スキル </p>
@@ -258,7 +160,7 @@
 
           <div class="top_skill_body">
             <div class="top_skill_contents l_container">
-              <div class="top_skill-item js_skill">
+              <div class="top_skill-item js_service">
                 <p class="top_skill-item_name">HTML</p>
                 <div class="top_skill-item_icon-wrapper">
                   <img
@@ -271,7 +173,7 @@
                 </div>
                 <!-- /.top_service-item_icon-wrapper -->
               </div>
-              <div class="top_skill-item js_skill">
+              <div class="top_skill-item js_service">
                 <p class="top_skill-item_name">CSS</p>
                 <div class="top_skill-item_icon-wrapper">
                   <img
@@ -284,7 +186,7 @@
                 </div>
                 <!-- /.top_service-item_icon-wrapper -->
               </div>
-              <div class="top_skill-item js_skill">
+              <div class="top_skill-item js_service">
                 <p class="top_skill-item_name">JavaScript</p>
                 <div class="top_skill-item_icon-wrapper">
                   <img
@@ -297,7 +199,7 @@
                 </div>
                 <!-- /.top_service-item_icon-wrapper -->
               </div>
-              <div class="top_skill-item js_skill">
+              <div class="top_skill-item js_service">
                 <p class="top_skill-item_name">WordPress</p>
                 <div class="top_skill-item_icon-wrapper">
                   <img
@@ -310,7 +212,7 @@
                 </div>
                 <!-- /.top_service-item_icon-wrapper -->
               </div>
-              <div class="top_skill-item js_skill">
+              <div class="top_skill-item js_service">
                 <p class="top_skill-item_name">AdobeXD</p>
                 <div class="top_skill-item_icon-wrapper">
                   <img
@@ -323,7 +225,7 @@
                 </div>
                 <!-- /.top_service-item_icon-wrapper -->
               </div>
-              <div class="top_skill-item js_skill">
+              <div class="top_skill-item js_service">
                 <p class="top_skill-item_name">Java</p>
                 <div class="top_skill-item_icon-wrapper">
                   <img
@@ -344,7 +246,7 @@
         </div>
         <!-- /.l_contents -->
       </section>
-      
+
       <section class="top_work" id="work">
         <div class="l_contents">
           <div class="m_title-lv02_wrapper">
@@ -452,11 +354,3 @@
   </div>
   <!-- /.l_contents -->
 </section>
-
-    <footer class="l_footer">
-      <p class="l_footer-copyright">
-        <small class="l_footer-copyright_txt">&copy; 2023 TsurumiTatsuya </small>
-      </p>
-    </footer>
-  </body>
-</html>

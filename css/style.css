@@ -668,6 +668,7 @@ body {
   background: var(--main-color);
 }
 
+
 .contact_main {
   padding-bottom: 120px;
 }
@@ -806,4 +807,8 @@ body {
 
 .js_page-top.is_active {
   right: 24px;
+}
+
+.contact-header {
+  margin-bottom: 80px;
 }

@@ -15,8 +15,8 @@ $(function () {
 /*---------- gsap ----------*/
 gsap
   .timeline()
-  .from(".js_copy", 1.6, { x: -1200, opacity: 0 }) // fromTo("セレクタ", アニメーション時間, { アニメーション前の状態（スタイル） }, { アニメーション後の状態（スタイル） })
-  .from(".js_sub-copy", 1.6, { x: -300, opacity: 0 }); // fromTo("セレクタ", アニメーション時間, { アニメーション前の状態（スタイル） }, { アニメーション後の状態（スタイル） })
+  .from(".js_copy", 1.6, { x: -1200, opacity: 0 }) 
+  .from(".js_sub-copy", 1.6, { x: -300, opacity: 0 }); 
 
 /*---------- gsap scrollTrigger ----------*/
 gsap.from(".js_service", {
